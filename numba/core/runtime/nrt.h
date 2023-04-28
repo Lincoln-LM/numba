@@ -134,7 +134,7 @@ NRT_MemInfo* NRT_MemInfo_alloc_dtor_safe(size_t size, NRT_dtor_function dtor);
 /*
  * Similar to NRT_MemInfo_alloc but with a custom dtor.
  */
-VISIBILITY_HIDDEN
+// VISIBILITY_HIDDEN
 NRT_MemInfo* NRT_MemInfo_alloc_dtor(size_t size, NRT_dtor_function dtor);
 
 /*
@@ -143,7 +143,7 @@ NRT_MemInfo* NRT_MemInfo_alloc_dtor(size_t size, NRT_dtor_function dtor);
  */
 VISIBILITY_HIDDEN
 NRT_MemInfo *NRT_MemInfo_alloc_aligned(size_t size, unsigned align);
-VISIBILITY_HIDDEN
+// VISIBILITY_HIDDEN
 NRT_MemInfo *NRT_MemInfo_alloc_safe_aligned(size_t size, unsigned align);
 
 /*
