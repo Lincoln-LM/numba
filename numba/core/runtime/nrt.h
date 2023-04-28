@@ -35,17 +35,17 @@ typedef void (*NRT_free_func)(void *ptr);
 /* Memory System API */
 
 /* Initialize the memory system */
-VISIBILITY_HIDDEN
+// VISIBILITY_HIDDEN
 void NRT_MemSys_init(void);
 
 /* Shutdown the memory system */
-VISIBILITY_HIDDEN
+// VISIBILITY_HIDDEN
 void NRT_MemSys_shutdown(void);
 
 /*
  * Register the system allocation functions
  */
-VISIBILITY_HIDDEN
+// VISIBILITY_HIDDEN
 void NRT_MemSys_set_allocator(NRT_malloc_func, NRT_realloc_func, NRT_free_func);
 
 /*
